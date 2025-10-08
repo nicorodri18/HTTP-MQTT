@@ -30,8 +30,8 @@ Este README incluye **endpoints, ejemplos JSON, MQTT, diagrama de secuencia y ev
 
 | Método | Endpoint | Descripción | Ejemplo |
 |:------:|:---------|:------------|:--------|
-| GET | `/ping` | Healthcheck del servidor | `http://<IP_ESP32>/ping` |
-| GET | `/move` | Instrucción de movimiento | `http://<IP_ESP32>/move?dir=f&speed=200&time=2000` |
+| GET | `/ping` | Healthcheck del servidor | `http://10.180.50.179/ping?` |
+| GET | `/move` | Instrucción de movimiento | `http://10.180.50.179/move?dir=f&speed=200&time=2000` |
 
 ### Parámetros de `/move`
 
