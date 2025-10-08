@@ -5,7 +5,7 @@ Este README incluye **endpoints, ejemplos JSON, MQTT, diagrama de secuencia y ev
 
 ---
 
-## 🧠 Objetivos
+## Objetivos
 
 - Endpoint **único** de movimiento: `/move?dir=<f|b|l|r|x>&speed=<0-255>&time=<ms≤5000>`.
 - Endpoint **healthcheck**: `/ping`.
