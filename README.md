@@ -24,7 +24,7 @@ Este README incluye **endpoints, ejemplos JSON, MQTT, diagrama de secuencia y ev
 ---
 
 
-## 🛰️ API REST
+##  API REST
 
 ### Endpoints
 
