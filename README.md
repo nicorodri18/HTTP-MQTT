@@ -93,7 +93,7 @@ Cada vez que se procesa `/move` exitosamente, el ESP32 publica un **JSON** con l
 }
 ```
 
-> Si usas un broker propio, cambia host/puerto/topic en el código. Puedes verificar con `mosquitto_sub -h test.mosquitto.org -t esp32/car/instructions -v`.
+
 
 ---
 
@@ -108,7 +108,7 @@ Cada vez que se procesa `/move` exitosamente, el ESP32 publica un **JSON** con l
 
 
 
-### ▶️ 1) Movimiento hacia adelante (`dir=f`)
+###  1) Movimiento hacia adelante (`dir=f`)
 <img width="1280" height="684" alt="image" src="https://github.com/user-attachments/assets/f7aaf153-962b-45ed-83c4-ceba5eab008f" />
 
 **Descripción:** Petición desde Postman para mover hacia **adelante** por **2000 ms** a velocidad **200**. En el Monitor Serie se ve la IP del cliente y la confirmación del inicio de movimiento.
@@ -135,7 +135,7 @@ Cada vez que se procesa `/move` exitosamente, el ESP32 publica un **JSON** con l
 **Descripción:** Dirección inválida; el sistema protege deteniendo motores y publicando a MQTT el request con control seguro.
 
 
-## 🧭 Flujo de operación
+## � Flujo de operación
 
 1. Cliente hace `GET /move`.
 2. ESP32 valida y responde inmediatamente con JSON.
