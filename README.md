@@ -134,6 +134,9 @@ Cada vez que se procesa `/move` exitosamente, el ESP32 publica un **JSON** con l
 
 **Descripción:** Dirección inválida; el sistema protege deteniendo motores y publicando a MQTT el request con control seguro.
 
+###  Interaccion con la IA: 
+https://github.com/nicorodri18/HTTP-MQTT.git
+
 
 ## � Flujo de operación
 
